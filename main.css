@@ -1,0 +1,300 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    box-sizing: border-box;  
+    ; 
+}
+
+.backgroundImg{
+    width: 100%;
+    height: 100vh;
+    background-image: url('images/lakeheader.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.bioData{
+    width: 100%;
+    height: 100%
+    background-color:rgba(0, 0, 0, 0.3);
+    padding:30px 0;
+    align-items: center
+}
+
+img {
+    height: 50px;
+    width: 50px;
+    border: none;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.profileText h3{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.profileText h1{
+  font-size: 150px;
+  margin-bottom: 10px;
+  font-family: 'Lovers Quarrel', cursive;
+
+}
+
+.row {  
+  display: flex;
+  -ms-flex-wrap: nowrap; 
+  flex-wrap: nowrap;
+}
+
+.side { /* Side section styling */
+  flex: 30%;
+  background: linear-gradient(to bottom, rgb(255, 255, 255) 0%, rgb(243,247,252) 100%);
+  padding: 20px;
+  text-align: center; 
+       
+      }
+.side p{
+        text-align: left;
+        word-break: break-all;
+      }
+      
+.side h2{
+    text-align: center;
+    font-family: Raleway, sans-serif;
+    color: rgb(0, 45, 82);
+    font-size: 24px;
+    font-style: normal;
+    Padding: 10px 15px 10px 15px;
+      }
+
+strong{
+  color: rgb(0, 45, 82);
+  font-size: 18px; 
+}
+
+.side h3{
+    padding-top: 10px;
+    padding-bottom: 10px;
+        text-align: center;
+        font-family: Raleway, sans-serif;
+        color: #35393b;
+        font-size: 24px;
+        font-style: normal;
+        }
+      
+.main {   /* main (summary section styling) */
+        flex: 70%;
+        
+        background: linear-gradient(to bottom, rgb(255, 255, 255) 0%, rgb(243,247,252) 100%);
+        padding: 20px;
+        flex-wrap: nowrap;
+        font-family: Raleway, sans-serif;
+      }
+      
+.main h2{   
+        color: rgb(0, 45, 82);
+        padding: 10px;
+        font-family: Raleway, sans-serif;
+      }
+.main img{ /* image gallery styling */
+  border-bottom-left-radius: 12px;
+        border-top-left-radius: 12px;
+        border-top-right-radius:12px;
+        border-bottom-right-radius: 12px;
+        align-items: flex-start;        
+}
+
+
+.mainheader { /* Form text styling*/
+    margin: 0 0 0 5px;
+    text-align: center;
+    font-family: Raleway, sans-serif;
+    color: #fcfcfc;
+    font-size: 24px;
+    font-style: normal;
+    Padding: 40px 26px 0px 26px;
+    }
+
+.rider {
+    font-family: Raleway, sans-serif;
+    color: rgb(201, 201, 201);
+    font-size: 16px;
+    font-weight: 300;
+    padding: 0px 14px 38px 14px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    text-align: center;
+    }
+
+.contactForm { /* Form body styling */
+        width: 100%;
+        height: 700px;
+        display: flex;
+        align-items: center;
+        color: black;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        background-color: #f3f7fc;
+    }
+
+
+form { /* form styling */
+
+        margin: 10px auto;
+        margin-bottom: 40px;
+        max-width: 45vw;
+        padding: 0px 40px 48px 40px; 
+        background: rgb(0, 45, 82);
+        border-top-left-radius: 12px;
+        border-top-right-radius:12px;
+        border-bottom-right-radius: 12px;
+        border-bottom-left-radius: 12px;
+      }    
+
+input { /* input styling for form */
+    border: none;
+    font-size: 14px;
+    margin: 0;
+    outline: 0;
+    padding: 16px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    color: black;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    margin-bottom: 25px;
+    width: 100%;
+}
+
+textarea { /* test area form */
+  font-family: 'Ubuntu', sans-serif;
+  border-radius: 4px;
+  overflow: hidden; 
+  width: 100%;
+  font-size: 14px;
+  padding: 16px;
+  background-color: #ffffff;
+  text-align: left;
+  color: black;
+  margin-bottom: 25px;
+  resize: none;
+}
+
+
+
+button {  /* Submit button */
+    padding: 20px 40px 20px 40px;
+    color: #002A52;
+    background-color: darkgray;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 12px 12px 12px 12px;
+    width: 100%;
+    border-width: 0px 0px 0px;
+    }
+
+button:hover {
+    opacity: 0.90;  
+    }
+
+          
+.footer { /* Footer */
+    width: 100%;
+    height: 100px;
+    display: block;
+    align-items: center;
+    color: rgb(155, 146, 146);
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    background: rgb(0, 45, 82);
+    
+  }
+
+
+
+
+  div.gallery { /* Main section Image gallery */
+    margin: 20px;
+    border: 0px transparent #ccc;
+    float: right;
+    width: 180px;
+    text-align: center;
+    justify-content: flex-end;
+  }
+  
+  
+div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+
+
+.mypic { /* header Personal image */
+    width: 150px;
+    height: 150px;
+    background-image: url('images/profilepic2.jpg');
+    margin: 0 auto;
+    border-radius: 150px 150px 150px 150px;
+    margin-bottom: 0px;
+    display: inline-block;
+}
+
+
+.wrapper /* page divider */
+{
+  padding-bottom: 0px;
+}
+.divider
+{
+	position: relative;
+	margin-top: 0px;
+	height: 1px;
+}
+
+
+.div-transparent:before
+{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 5%;
+	right: 5%;
+	width: 90%;
+	height: 1px;
+	background-image: linear-gradient(to right, transparent, rgb(48,49,51), transparent);
+}
+
+.div-dot:after
+{
+	content: "";
+	position: absolute;
+	z-index: 1;
+	top: -9px;
+	left: calc(50% - 9px);
+	width: 18px;
+	height: 18px;
+	background-color: #002A52;
+	border: 1px solid rgb(48,49,51);
+	border-radius: 50%;
+	box-shadow: inset 0 0 0 2px #f3f7fc,
+					0 0 0 4px #f3f7fc;
+}
