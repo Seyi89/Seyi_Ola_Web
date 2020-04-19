@@ -5,9 +5,22 @@
     box-sizing: border-box;
 }
 
+
+.mypic { /* header Personal image */
+  width: 150px;
+  height: 150px;
+  background-image: url('images/profilepic2.jpg');
+  margin: 40px auto;
+  border-radius: 150px 150px 150px 150px;
+  margin-bottom: 0px;
+  display: inline-block;
+  object-fit: cover;
+  position: top;
+}
+
 .backgroundImg{
     width: 100%;
-    height: 100vh;
+    height: 85vh;
     background-image: url('images/lakeheader.jpg');
     background-size: cover;
     display: flex;
@@ -22,7 +35,7 @@
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.3);
-    padding:30px 0;
+    padding:50px 0;
     align-items: center
 }
 
@@ -47,10 +60,7 @@ img {
   font-size: 150px;
   margin-bottom: 10px;
   font-family: 'Lovers Quarrel', cursive;
-
 }
-
-
 
 .side { /* Side section styling */
   align-items: center;
@@ -94,14 +104,16 @@ strong{
         padding: 20px;
         font-family: Raleway, sans-serif;
       }
-      
+.main p{   /* main (summary section styling) */
+        text-align: center;
+            }
+
 .main h2{   
         color: rgb(0, 45, 82);
         padding: 10px;
         font-family: Raleway, sans-serif;
         text-align: center;
       }
-
 
 
 .mainheader { /* Form text styling*/
@@ -125,24 +137,25 @@ strong{
     text-align: center;
     }
 
+
+
+
 .contactForm { /* Form body styling */
         width: 100%;
-        height: 700px;
-        display: flex;
+        height: 680px;
+        display: block;
         align-items: center;
         color: black;
         justify-content: center;
         text-align: center;
-        flex-direction: column;
         background-color: #f3f7fc;
     }
 
 
 form { /* form styling */
 
-        margin: 10px auto;
-        margin-bottom: 40px;
-        max-width: 45vw;
+        margin: 30px auto;
+        max-width: 580px;
         padding: 0px 40px 48px 40px; 
         background: rgb(0, 45, 82);
         border-top-left-radius: 12px;
@@ -211,15 +224,7 @@ button:hover {
     
   }
 
-.mypic { /* header Personal image */
-    width: 150px;
-    height: 150px;
-    background-image: url('images/profilepic2.jpg');
-    margin: 0 auto;
-    border-radius: 150px 150px 150px 150px;
-    margin-bottom: 0px;
-    display: inline-block;
-}
+
 
 
 .wrapper /* page divider */
