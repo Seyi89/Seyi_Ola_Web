@@ -2,8 +2,7 @@
     padding: 0;
     margin: 0;
     font-family: 'Ubuntu', sans-serif;
-    box-sizing: border-box;  
-    ; 
+    box-sizing: border-box;
 }
 
 .backgroundImg{
@@ -21,8 +20,8 @@
 
 .bioData{
     width: 100%;
-    height: 100%
-    background-color:rgba(0, 0, 0, 0.3);
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
     padding:30px 0;
     align-items: center
 }
@@ -51,22 +50,19 @@ img {
 
 }
 
-.row {  
-  display: flex;
-  -ms-flex-wrap: nowrap; 
-  flex-wrap: nowrap;
-}
+
 
 .side { /* Side section styling */
-  flex: 30%;
+  align-items: center;
+  display: block; 
   background: linear-gradient(to bottom, rgb(255, 255, 255) 0%, rgb(243,247,252) 100%);
   padding: 20px;
   text-align: center; 
        
       }
 .side p{
-        text-align: left;
         word-break: break-all;
+        align-items: center
       }
       
 .side h2{
@@ -94,11 +90,8 @@ strong{
         }
       
 .main {   /* main (summary section styling) */
-        flex: 70%;
-        
-        background: linear-gradient(to bottom, rgb(255, 255, 255) 0%, rgb(243,247,252) 100%);
+        background-color: #f3f7fc;
         padding: 20px;
-        flex-wrap: nowrap;
         font-family: Raleway, sans-serif;
       }
       
@@ -106,14 +99,9 @@ strong{
         color: rgb(0, 45, 82);
         padding: 10px;
         font-family: Raleway, sans-serif;
+        text-align: center;
       }
-.main img{ /* image gallery styling */
-  border-bottom-left-radius: 12px;
-        border-top-left-radius: 12px;
-        border-top-right-radius:12px;
-        border-bottom-right-radius: 12px;
-        align-items: flex-start;        
-}
+
 
 
 .mainheader { /* Form text styling*/
@@ -222,31 +210,6 @@ button:hover {
     background: rgb(0, 45, 82);
     
   }
-
-
-
-
-  div.gallery { /* Main section Image gallery */
-    margin: 20px;
-    border: 0px transparent #ccc;
-    float: right;
-    width: 180px;
-    text-align: center;
-    justify-content: flex-end;
-  }
-  
-  
-div.gallery img {
-    width: 100%;
-    height: auto;
-  }
-  
-div.desc {
-    padding: 15px;
-    text-align: center;
-  }
-
-
 
 .mypic { /* header Personal image */
     width: 150px;
