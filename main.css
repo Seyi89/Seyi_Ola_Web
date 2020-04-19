@@ -7,23 +7,25 @@
 
 
 .mypic { /* header Personal image */
-  width: 150px;
-  height: 150px;
-  background-image: url('images/profilepic2.jpg');
-  margin: 40px auto;
-  border-radius: 150px 150px 150px 150px;
-  margin-bottom: 0px;
-  display: inline-block;
+  width: 200px;
+  height: 200px;
+  background-image: url('images/profileimage1.jpg');
+  background-repeat:repeat-x;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  margin: auto;
+  border-radius: 200px 200px 200px 200px;
+  display: block;
   object-fit: cover;
   position: top;
 }
 
 .backgroundImg{
     width: 100%;
-    height: 85vh;
-    background-image: url('images/lakeheader.jpg');
+    height: 650px;
+    background-image: url('images/lakeheader2.jpg');
     background-size: cover;
-    display: flex;
+    display: block;
     align-items: center;
     color: white;
     justify-content: center;
@@ -49,16 +51,37 @@ img {
     padding-bottom: 5px;
 }
 
+.navbar{
+  font-size: 13px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-family: 'Raleway', sans-serif;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.nav-item {
+  font-family: 'Raleway', sans-serif;
+  margin-right: 40px;
+  margin-left: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 13px;
+  align-content: center;
+}
+
 .profileText h3{
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 10px;
+    margin-top: 10px;
     font-family: 'Raleway', sans-serif;
 }
 
 .profileText h1{
   font-size: 150px;
-  margin-bottom: 10px;
   font-family: 'Lovers Quarrel', cursive;
 }
 
@@ -224,9 +247,6 @@ button:hover {
     
   }
 
-
-
-
 .wrapper /* page divider */
 {
   padding-bottom: 0px;
@@ -237,7 +257,6 @@ button:hover {
 	margin-top: 0px;
 	height: 1px;
 }
-
 
 .div-transparent:before
 {
